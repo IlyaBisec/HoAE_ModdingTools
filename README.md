@@ -1,2 +1,2 @@
 # HoAE_Modding
-HoAE Modding utils
+Heroes of Annihilated Empires Modding utils
