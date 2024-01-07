@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindowW));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBoxFiles = new System.Windows.Forms.ListBox();
             this.buttonClearList = new System.Windows.Forms.Button();
@@ -240,6 +241,7 @@
             this.Controls.Add(this.listBoxFiles);
             this.Controls.Add(this.comboBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainWindowW";
             this.Text = "Lst File++";
             this.ResumeLayout(false);
