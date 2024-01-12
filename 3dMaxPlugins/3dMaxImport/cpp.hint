@@ -1,0 +1,2 @@
+#define MY3DMAXIMPORT_API __declspec(dllexport)
+#define MY3DMAXIMPORT_API __declspec(dllimport)
